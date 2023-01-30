@@ -1,0 +1,9 @@
+{
+  "version" : "1.3.1",
+  "author" : "Divik",
+  "description" : "A mod that enables players to make instruments.\nEach instruments costs 5000pixels.\nEveryone can discuss the proper recipe for the recipe, I will change the recipe according to the suggestion.\n===========\nThis is my first mod, thanks for everyone's download and subscribe!\nPS: fixed recipes can only seen in admin mode",
+  "name" : "Instrument Craft",
+  "friendlyName" : "Instrument Craft",
+  "steamContentId" : "963960008",
+  "link" : "steam://url/CommunityFilePage/963960008"
+}

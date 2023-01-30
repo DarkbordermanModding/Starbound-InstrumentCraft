@@ -1,0 +1,12 @@
+{
+"name" : "instrumentcraft",
+"version" : "1.3.1",
+"path" : ".",
+"metadata" : {
+"displayName" : "instrumentcraft",
+"author" : "Divik",
+"description" : "A mod that enable players to craft instruments",
+"support_url" : "forum-link",
+"version" : "1.0"
+}
+}

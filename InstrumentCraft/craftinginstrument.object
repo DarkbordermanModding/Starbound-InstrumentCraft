@@ -1,0 +1,63 @@
+{
+  "objectName" : "craftinginstrument",
+  "rarity" : "Common", // this effects the colour of the ring around your tables icon
+  "printable" : false, // "true" or "false" determiners if you want your table to be printable at your 3d printer for its price
+  "description" : "A table that is used to create instruments", // a one sentence description of your object
+  "shortdescription" : "Instrument table", // the name you want to be displayed when picking up or selecting your table
+  "race" : "generic",
+  "category" : "Crafting",
+  "price" : 150,
+    "learnBlueprintsOnPickup" : [
+	"accordion",
+	"acouseicguitar",
+	"banjo",
+	"bassguitar",
+	"bones",
+	"brightpiano",
+	"clarinet",
+	"drumkit",
+	"dulcimer",
+	"electricbass",
+	"flute",
+	"harmonica",
+	"harp",
+	"keyboard",
+	"koto",
+	"leadguitar",
+	"microphone",
+	"microphonefem",
+	"nylonguitar",
+	"oboe",
+	"ocarina",
+	"overdriveguitar",
+	"piano",
+	"reedorgan",
+	"rockorgan",
+	"saxophone",
+	"spaceorgan",
+	"squareorgan",
+	"steeldrum",
+	"trumpet",
+	"violin"
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftinginstrument.config",
+    "filter" : [ "inst" ] //the recipes the table will look for
+    },
+  "inventoryIcon" : "craftinginstrumenticon.png", // the icon file you will create
+  "orientations" : [
+    {
+      "dualImage" : "craftinginstrument.png", // your sprite ":<color>" only necessary for objects with multiple colours but can be left no problem
+      "imagePosition" : [-14, 0],  // this determines where the object is placed in relation to your mouse point "[0,0]" means your mouse will be at the bottom left corner of sprite when placing
+      "frames" : 1, //leave a 1 unless animating your table
+      "animationCycle" : 1.0, //leave a 1.0 unless animating your table
+
+      "spaceScan" : 0.1, //works with "collision"
+      "anchors" : [ "bottom" ], //were your object must be placed
+      "collision" : "platform" //look at your sprite if your hight is a multiple of 8 and your table has a flat top then you may wont the player to be able to stand on your table and objects to be placeable
+
+    }
+  ]
+}

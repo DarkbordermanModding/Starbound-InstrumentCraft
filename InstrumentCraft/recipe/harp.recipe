@@ -1,0 +1,10 @@
+{
+  "input" : [ //these are the cost to craft
+    { "item" : "money", "count" : 5000 }
+  ],
+  "output" : { //this is your table
+    "item" : "harp",
+    "count" : 1
+  },
+  "groups" : [ "inst" ] //these are the groups that thoes buttons you made in your ui early look for
+}

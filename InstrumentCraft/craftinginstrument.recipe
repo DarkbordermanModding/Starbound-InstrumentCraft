@@ -1,0 +1,12 @@
+{
+  "input" : [ //these are the cost to craft
+    { "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "goldbar", "count" : 5 },
+	{ "item" : "ironbar", "count" : 10 }
+  ],
+  "output" : { //this is your table
+    "item" : "craftinginstrument",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all" ] //these are the groups that thoes buttons you made in your ui early look for
+}

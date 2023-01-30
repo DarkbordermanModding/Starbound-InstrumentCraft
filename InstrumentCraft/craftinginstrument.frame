@@ -1,0 +1,19 @@
+{
+
+  "frameGrid" : {
+    "size" : [28, 20], //this is the resolution of your image
+    "dimensions" : [1, 9], // the 1 represents the number of frames for animated objects and the 9 represents the number of colours if you don't know about this leave at "[1, 1]"
+    "names" : [
+      [ "default" ], //same as above leave as '["default"]' unless you know about colours
+      [ "red" ],
+      [ "blue" ],
+      [ "green" ],
+      [ "yellow" ],
+      [ "orange" ],
+      [ "pink" ],
+      [ "black" ],
+      [ "white" ]
+    ]
+
+  }
+}
